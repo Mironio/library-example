@@ -1,5 +1,5 @@
 {
-§  "name": "@Mironio/library-example",
+  "name": "@Mironio/library-example",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/Mironio"
   },
