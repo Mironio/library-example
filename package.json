@@ -1,8 +1,10 @@
 {
-  "name": "library-example",
-  "version": "1.0.0",
+§  "name": "@Mironio/library-example",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/Mironio"
+  },
+  "version": "1.0.4",
   "description": "",
-
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "files": [
@@ -23,6 +25,8 @@
     "react": "^18.2.0",
     "rollup": "2.60.0",
     "rollup-plugin-dts": "4.0.1",
+    "rollup-plugin-postcss": "^3.0.0",
+    "tslib": "^2.4.1",
     "typescript": "^4.4.4"
   }
 }
